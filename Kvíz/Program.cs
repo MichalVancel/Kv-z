@@ -1,6 +1,8 @@
 ﻿using Kvíz;
 
-Otazka otazka = new();
+Otazka otazka = new Otazka();
+otazka.Load();
+otazka.Answer();
 
-otazka.LoadQ1();
-otazka.LoadQ2();
+
+
